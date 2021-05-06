@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+:root{
+    --font1: 'Open Sans', sans-serif;
+}
+
+html, body{
+    margin: 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    margin: 0px 20px;
+    color: white;
+    font-size: 2rem;
+    font-family: var(--font1);
+}
+#game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 680px;
+    width: 100%;
+}
+#gameCanvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 90%;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 90%;
+    margin: 5px 10px;
+    font-size: 1.3rem;
+    color: teal;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20px;
+}
